@@ -1,0 +1,101 @@
+body {
+    background-color: #FFFAE6; /* Creamy Pikachu Yellow background */
+    font-family: 'Garmond', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #FF5733; /* Pikachu Red */
+    font-family: 'Garamond', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    margin: 30px 0;
+}
+
+h2 {
+    color: #FF5733; /* Pikachu Red */
+    font-family: 'Didot', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #FFF; /* White background for the table */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #FF5733; /* Pikachu Red border */
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #FFCB05; /* Pikachu Yellow header background */
+    font-weight: bold;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFAE6; /* Creamy Pikachu Yellow background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    color: #FF5733; 
+    font-family: 'Didot', sans-serif;
+}
+
+form label {
+    display: block;
+    margin-bottom: 4px;
+    color: #FF5733; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #FF5733; 
+    border-radius: 4px;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #FF5733; 
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0099CC; 
+}
+
+.pikachu-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+
+
+
+
+
